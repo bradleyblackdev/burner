@@ -12,24 +12,25 @@ import {
 function App() {
   return (
     <Router>
-    <Routes>
-      <Route path="/" element={<Home />}/>
-      <Route path="complete" element={<Users />} />
-    </Routes>
+      <h3>hello!!</h3>
+      {/* <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="complete" element={<Users />} />
+      </Routes> */}
   </Router>
   );
 }
 
-function Home() {
-  return <h2>Home</h2>;
-  }
+// function Home() {
+//   return <h2>Home</h2>;
+//   }
   
   // function Complete() {
   // return (<Link to="/">reset</Link>)
   // }
   
-  function Users() {
-  return <h2>Users</h2>;
-  }
+  // function Users() {
+  // return <h2>Users</h2>;
+  // }
 
 export default App;
