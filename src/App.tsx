@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {
-  // Router,
+  BrowserRouter as Router,
   // Route,
   // Routes,
 //   Link,
@@ -11,7 +11,7 @@ import {
 
 function App() {
   return (
-    // <Router>
+    <Router>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -28,7 +28,7 @@ function App() {
         </a>
       </header>
     </div>
-    // </Router>
+    </Router>
   );
 }
 
